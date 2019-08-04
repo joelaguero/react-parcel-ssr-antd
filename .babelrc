@@ -1,0 +1,39 @@
+{
+  "presets": [
+    "env",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    ["babel-plugin-root-import", {
+      "rootPathSuffix": "src"
+      }],
+    "transform-class-properties",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }],
+  ],
+  "env": {
+    "server": {
+      "presets": [
+        ["env", {
+          "targets": { "node": "current" }
+        }],
+        "stage-0",
+        "react"
+      ],
+      "plugins": [
+        ["babel-plugin-root-import", {
+          "rootPathSuffix": "src"
+        }],
+        "transform-class-properties",
+        ["css-modules-transform", {
+          "generateScopedName": "[name]_[local]_[hash:base64:5]",
+          "extensions": [".css", ".scss", ".less"]
+        }]
+      ]
+    }
+  }
+}
+

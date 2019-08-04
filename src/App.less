@@ -1,0 +1,72 @@
+@import '../node_modules/antd/dist/antd.less'; // or 'antd/dist/antd.less'
+
+@primary-color: #000; // primary color for all components
+@link-color: #000; // link color
+@success-color: rgb(0, 209, 164); // success state color
+@warning-color: #fdca21; // warning state color
+@error-color: #f5229d; // error state color
+
+@font-family: 'Open Sans', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+@font-size-base: 17px; // major text font size
+
+// Buttons
+// ---
+@btn-height-base: 40px;
+@btn-height-lg: 52px;
+@btn-height-sm: 32px;
+
+@btn-font-weight: bold;
+@btn-border-radius-base: @border-radius-base;
+@btn-border-radius-sm: @border-radius-base;
+@btn-border-width: @border-width-base;
+@btn-border-style: @border-style-base;
+@btn-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+@btn-primary-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+@btn-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+
+@btn-primary-color: #fff;
+@btn-primary-bg: @primary-color;
+
+// Input
+// ---
+@input-height-base: 40px;
+@input-height-lg: 52px;
+@input-height-sm: 32px;
+@input-padding-horizontal: @control-padding-horizontal - 1px;
+@input-padding-horizontal-base: @input-padding-horizontal;
+@input-padding-horizontal-sm: @control-padding-horizontal-sm - 1px;
+@input-padding-horizontal-lg: @input-padding-horizontal;
+@input-padding-vertical-base: 4px;
+@input-padding-vertical-sm: 1px;
+@input-padding-vertical-lg: 6px;
+@input-placeholder-color: hsv(0, 0, 75%);
+@input-color: @text-color;
+@input-border-color: @border-color-base;
+@input-bg: @component-background;
+@input-number-handler-active-bg: #f4f4f4;
+@input-addon-bg: @background-color-light;
+@input-hover-border-color: @primary-color;
+@input-disabled-bg: @disabled-bg;
+@input-outline-offset: 0 0;
+
+// Form
+// ---
+@label-required-color: @highlight-color;
+@label-color: @heading-color;
+@form-warning-input-bg: @input-bg;
+@form-item-margin-bottom: 0.5rem;
+@form-item-trailing-colon: true;
+@form-vertical-label-padding: 0 0 8px;
+@form-vertical-label-margin: 0;
+@form-error-input-bg: @input-bg;
+
+@heading-color: rgba(0, 0, 0, 0.85); // heading text color
+@text-color: rgba(0, 0, 0, 0.65); // major text color
+@text-color-secondary : rgba(0, 0, 0, .45); // secondary text color
+@disabled-color : rgba(0, 0, 0, .25); // disable state color
+@border-radius-base: 2px; // major border radius
+@border-color-base: #d9d9d9; // major border color
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15); // major shadow for layers
