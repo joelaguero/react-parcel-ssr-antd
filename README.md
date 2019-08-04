@@ -1,6 +1,7 @@
-# React Parcel SSR
+# React Parcel SSR w/ ant.design
 
-> React Server Side Rendering with Parcel and Babel.
+> React Server Side Rendering with Parcel and Babel, plus customizable Ant Design UI framework
+> Built from https://github.com/keiww/react-parcel-ssr
 
 - [x] CSS Modules (`postcss-modules` & `babel-plugin-css-modules-transform`)
 - [x] Universal cookie (`react-cookie` & `universal-cookie-express`)
